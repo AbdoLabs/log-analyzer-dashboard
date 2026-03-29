@@ -9,6 +9,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.set_page_config(layout="wide", page_title="Log Analyzer Dashboard")
+
+
+st.markdown("""
+<style>
+.block-container {
+    padding-top: 1.3rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.title("📊 Log Analyzer Dashboard")
 st.caption("Interactive log monitoring system with filtering, visualization, and anomaly detection")
 #st.markdown("## Log Monitoring Dashboard")

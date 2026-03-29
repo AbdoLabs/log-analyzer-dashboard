@@ -1,4 +1,4 @@
-# Log Analyzer Dashboard
+# 📊 Log Analyzer Dashboard
 
 An interactive log monitoring dashboard built with Python, Pandas, and Streamlit.
 
