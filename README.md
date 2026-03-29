@@ -6,7 +6,7 @@ An interactive log monitoring dashboard built with Python, Pandas, and Streamlit
 
 ## 🌍 Live Demo
 
-👉 https://abdo-log-analyzer.streamlit.app
+👉 <a href="https://abdo-log-analyzer.streamlit.app" target="_blank">Open Log Analyzer App</a>
 
 ---
 
