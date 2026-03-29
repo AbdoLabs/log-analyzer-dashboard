@@ -1,5 +1,6 @@
 
 
+
 import sys
 import os
 sys.path.append(os.path.abspath("src"))
@@ -7,6 +8,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+st.set_page_config(layout="wide", page_title="Log Analyzer Dashboard")
 def style_chart(ax):
     # Title
     if ax.get_title():
@@ -39,7 +41,7 @@ def colored_metric(col, label, value):
 from log_analyzer.parser import parse_log_line
 from log_analyzer.analysis import get_errors_per_hour, detect_spikes
 
-st.set_page_config(layout="wide")
+
 st.markdown("## Log Monitoring Dashboard")
 
 col1_main,col2_main = st.columns([1, 1], gap="small")

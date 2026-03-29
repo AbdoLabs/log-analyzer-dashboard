@@ -35,7 +35,7 @@ An interactive log monitoring dashboard built with Python, Pandas, and Streamlit
 
 ```bash
 pip install -r requirements.txt
-streamlit run src/log_analyzer/dashboard.py
+streamlit run dashboard.py
 ```
 
 ---
@@ -48,9 +48,9 @@ log-analyzer/
 ├── src/
 │   └── log_analyzer/
 │       ├── parser.py
-│       ├── analysis.py
-│       └── dashboard.py
-│
+│       └── analysis.py
+│       
+├── dashboard.py
 ├── logs/
 ├── requirements.txt
 └── README.md
